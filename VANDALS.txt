@@ -1,0 +1,91 @@
+import matplotlib.pyplot as plt
+
+x = ["day1","day2","day3","day4","day5","day6","day7","day8","day8","day9","day10","day11","day12","day13","day14","day15","day16","day17"]
+y = [2.764
+,2.844
+,3.117
+,2.864
+,2.228
+,3.22
+,3.339
+,3.135
+,1.79
+,3.133
+,3.87
+,2.464
+,3.052
+,2.648
+,2.884
+,4.112
+,3.342
+,3.631]
+plt.plot(x,y,color ='blue',linewidth=3)
+plt.ylabel("Calories")
+plt.xlabel("DAYS")
+plt.grid(True)
+plt.title("calories")
+plt.show()
+
+
+
+//mean diastole
+import matplotlib.pyplot as plt
+
+x =["day1","day2","day3","day4","day5","day6","day7","day8","day9","day10","day11","day12","day13","day14","day15","day16","day17","day18","day19"]
+
+y = [78.7455078
+    ,78.73865109
+    ,78.73194307
+    ,78.72496051
+    ,78.7178488
+    ,78.71189554
+    ,78.70719978
+    ,78.70222599
+    ,78.69619614
+    ,78.68888282
+    ,78.68228687
+    ,78.6752731
+    ,78.67012223
+    ,78.66567735
+    ,78.66030645
+    ,78.65474202
+    ,78.64881634
+    ,78.64466829
+    ,78.64206576]
+plt.plot(x, y, color='blue',linewidth=3)
+plt.xlabel("DAYS")
+plt.ylabel("Mean diastolic blood pressure (mmHg)")
+plt.title("Mean diastolic blood pressure")
+plt.grid(True)
+plt.show()
+
+//mean systole
+import matplotlib.pyplot as plt
+
+x = ["day1","day2","day3","day4","day5","day6","day7","day8","day9","day10","day11","day12","day13","day14","day15","day16","day17","day18","day19"]
+y = [126.6395165
+,126.616241
+,126.5923775
+,126.5667763
+,126.5394621
+,126.5119416
+,126.4829406
+,126.4510429
+,126.4147171
+,126.3739833
+,126.3314181
+,126.289153
+,126.289153
+,126.2129135
+,126.1788179
+,126.1485303
+,126.122569
+,126.1031654
+,126.0873059]
+plt.plot(x,y,color='blue',linewidth=3)
+plt.title("MEAN systolic blood pressure")
+plt.ylabel("Mean systolic blood pressure (mmHg)")
+plt.xlabel("DAYS")
+plt.grid(True)
+plt.show()
+
